@@ -1,0 +1,66 @@
+@font-face {
+    font-family: Ubuntu-Title;
+    src: url("Ubuntu-Title.ttf");
+}
+body {
+    
+    text-align: center;
+    font-family:Ubuntu-Title;
+    font-size: 30px;
+    background-color:linear-gradient("#e56c70,red");
+    color: #fdcacb;
+    text-shadow: 0px 0px 5px black;
+}
+img {
+    border-radius: 50%;
+    border: 10px solid #fdcacb ;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+}
+.h1 {
+    background-color: #8d0801;
+    border-radius: 20px;
+    padding: 0px 20px 0px 20px;
+    
+}
+.h2 {
+    background-color: #8d0801;
+    border-radius: 20px;
+    padding: 0px 20px 5px 20px;
+    margin-bottom: 8px;
+}
+
+.h3 {
+    margin-top: 0px;
+
+}
+
+.cake {
+    margin-top: 8px;
+    margin-bottom: 50px;
+    color: #eb898c;
+}
+.fit-img,.happy-img,.cake-img {
+    width: 500px;
+    height: 500px;
+    border:5px solid #de2849;
+    border-radius: 20px;
+    background-image: url("gift.jpg");
+    background-size: cover;
+    box-shadow: 0px 0px 25px maroon;
+    margin-bottom: 30px;
+}
+
+.fit,.happy {
+    color :#fca7aa
+}
+
+.cake-img:hover {
+    background-image: url("200\ \(1\).webp");
+    background-size: cover;
+}
